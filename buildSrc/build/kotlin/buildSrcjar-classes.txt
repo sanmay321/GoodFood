@@ -1,0 +1,1 @@
+/Users/sanmaynemo/Desktop/Desktop/android studio/Good Food/buildSrc/build/classes/kotlin/main/Libs.class:/Users/sanmaynemo/Desktop/Desktop/android studio/Good Food/buildSrc/build/classes/kotlin/main/Versions.class

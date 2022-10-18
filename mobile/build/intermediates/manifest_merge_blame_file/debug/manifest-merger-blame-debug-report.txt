@@ -1,0 +1,175 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.elbehiry.delish"
+4    android:versionCode="4"
+5    android:versionName="0.1.0-debug" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/sanmaynemo/Desktop/Desktop/android studio/Good Food/mobile/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/Users/sanmaynemo/Desktop/Desktop/android studio/Good Food/mobile/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/sanmaynemo/Desktop/Desktop/android studio/Good Food/mobile/src/main/AndroidManifest.xml:5:5-66
+11-->/Users/sanmaynemo/Desktop/Desktop/android studio/Good Food/mobile/src/main/AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->/Users/sanmaynemo/Desktop/Desktop/android studio/Good Food/mobile/src/main/AndroidManifest.xml:6:5-78
+12-->/Users/sanmaynemo/Desktop/Desktop/android studio/Good Food/mobile/src/main/AndroidManifest.xml:6:22-76
+13
+14    <!-- Include required permissions for Google Maps API to run. -->
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.google.android.gms:play-services-maps:17.0.0] /Users/sanmaynemo/.gradle/caches/transforms-3/4ff04b552376fa176bbc7cc9473315a2/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
+15-->[com.google.android.gms:play-services-maps:17.0.0] /Users/sanmaynemo/.gradle/caches/transforms-3/4ff04b552376fa176bbc7cc9473315a2/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:23:22-76
+16
+17    <uses-feature
+17-->[com.google.android.gms:play-services-maps:17.0.0] /Users/sanmaynemo/.gradle/caches/transforms-3/4ff04b552376fa176bbc7cc9473315a2/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+18        android:glEsVersion="0x00020000"
+18-->[com.google.android.gms:play-services-maps:17.0.0] /Users/sanmaynemo/.gradle/caches/transforms-3/4ff04b552376fa176bbc7cc9473315a2/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+19        android:required="true" />
+19-->[com.google.android.gms:play-services-maps:17.0.0] /Users/sanmaynemo/.gradle/caches/transforms-3/4ff04b552376fa176bbc7cc9473315a2/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+20
+21    <application
+21-->/Users/sanmaynemo/Desktop/Desktop/android studio/Good Food/mobile/src/main/AndroidManifest.xml:8:5-29:19
+22        android:name="com.elbehiry.delish.MainApplication"
+22-->/Users/sanmaynemo/Desktop/Desktop/android studio/Good Food/mobile/src/main/AndroidManifest.xml:9:9-40
+23        android:allowBackup="false"
+23-->/Users/sanmaynemo/Desktop/Desktop/android studio/Good Food/mobile/src/main/AndroidManifest.xml:10:9-36
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.6.0] /Users/sanmaynemo/.gradle/caches/transforms-3/c5d9c035015f5d47936fce0e6def5a87/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+25        android:debuggable="true"
+26        android:icon="@drawable/ic_delish_logo"
+26-->/Users/sanmaynemo/Desktop/Desktop/android studio/Good Food/mobile/src/main/AndroidManifest.xml:11:9-48
+27        android:label="@string/app_name"
+27-->/Users/sanmaynemo/Desktop/Desktop/android studio/Good Food/mobile/src/main/AndroidManifest.xml:12:9-41
+28        android:roundIcon="@drawable/ic_delish_logo"
+28-->/Users/sanmaynemo/Desktop/Desktop/android studio/Good Food/mobile/src/main/AndroidManifest.xml:13:9-53
+29        android:supportsRtl="true"
+29-->/Users/sanmaynemo/Desktop/Desktop/android studio/Good Food/mobile/src/main/AndroidManifest.xml:14:9-35
+30        android:testOnly="true"
+31        android:theme="@style/Theme.Delish" >
+31-->/Users/sanmaynemo/Desktop/Desktop/android studio/Good Food/mobile/src/main/AndroidManifest.xml:15:9-44
+32        <activity android:name="com.elbehiry.delish.ui.onboarding.OnBoardingActivity" />
+32-->/Users/sanmaynemo/Desktop/Desktop/android studio/Good Food/mobile/src/main/AndroidManifest.xml:16:9-69
+32-->/Users/sanmaynemo/Desktop/Desktop/android studio/Good Food/mobile/src/main/AndroidManifest.xml:16:19-67
+33        <activity android:name="com.elbehiry.delish.ui.main.MainActivity" />
+33-->/Users/sanmaynemo/Desktop/Desktop/android studio/Good Food/mobile/src/main/AndroidManifest.xml:17:9-58
+33-->/Users/sanmaynemo/Desktop/Desktop/android studio/Good Food/mobile/src/main/AndroidManifest.xml:17:19-55
+34        <activity android:name="com.elbehiry.delish.ui.launcher.LauncherActivity" >
+34-->/Users/sanmaynemo/Desktop/Desktop/android studio/Good Food/mobile/src/main/AndroidManifest.xml:18:9-24:20
+34-->/Users/sanmaynemo/Desktop/Desktop/android studio/Good Food/mobile/src/main/AndroidManifest.xml:18:19-63
+35            <intent-filter>
+35-->/Users/sanmaynemo/Desktop/Desktop/android studio/Good Food/mobile/src/main/AndroidManifest.xml:19:13-23:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->/Users/sanmaynemo/Desktop/Desktop/android studio/Good Food/mobile/src/main/AndroidManifest.xml:20:17-69
+36-->/Users/sanmaynemo/Desktop/Desktop/android studio/Good Food/mobile/src/main/AndroidManifest.xml:20:25-66
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->/Users/sanmaynemo/Desktop/Desktop/android studio/Good Food/mobile/src/main/AndroidManifest.xml:22:17-77
+38-->/Users/sanmaynemo/Desktop/Desktop/android studio/Good Food/mobile/src/main/AndroidManifest.xml:22:27-74
+39            </intent-filter>
+40        </activity>
+41
+42        <meta-data
+43            android:name="com.google.android.geo.API_KEY"
+43-->/Users/sanmaynemo/Desktop/Desktop/android studio/Good Food/mobile/src/main/AndroidManifest.xml:26:20-65
+44            android:value="AIzaSyAlPDIoP7vmHfGJwQrTjA8-29OToUIESBA" />
+44-->/Users/sanmaynemo/Desktop/Desktop/android studio/Good Food/mobile/src/main/AndroidManifest.xml:27:13-45
+45
+46        <activity
+46-->[androidx.compose.ui:ui-tooling:1.0.0-rc01] /Users/sanmaynemo/.gradle/caches/transforms-3/077eaf775437828e6c6aae3cb42a68d4/transformed/jetified-ui-tooling-1.0.0-rc01/AndroidManifest.xml:25:9-27:39
+47            android:name="androidx.compose.ui.tooling.PreviewActivity"
+47-->[androidx.compose.ui:ui-tooling:1.0.0-rc01] /Users/sanmaynemo/.gradle/caches/transforms-3/077eaf775437828e6c6aae3cb42a68d4/transformed/jetified-ui-tooling-1.0.0-rc01/AndroidManifest.xml:26:13-71
+48            android:exported="true" />
+48-->[androidx.compose.ui:ui-tooling:1.0.0-rc01] /Users/sanmaynemo/.gradle/caches/transforms-3/077eaf775437828e6c6aae3cb42a68d4/transformed/jetified-ui-tooling-1.0.0-rc01/AndroidManifest.xml:27:13-36
+49
+50        <service
+50-->[androidx.room:room-runtime:2.2.4] /Users/sanmaynemo/.gradle/caches/transforms-3/75b5b3b4fe93d9f85c66825364f54bec/transformed/room-runtime-2.2.4/AndroidManifest.xml:25:9-27:40
+51            android:name="androidx.room.MultiInstanceInvalidationService"
+51-->[androidx.room:room-runtime:2.2.4] /Users/sanmaynemo/.gradle/caches/transforms-3/75b5b3b4fe93d9f85c66825364f54bec/transformed/room-runtime-2.2.4/AndroidManifest.xml:26:13-74
+52            android:exported="false" />
+52-->[androidx.room:room-runtime:2.2.4] /Users/sanmaynemo/.gradle/caches/transforms-3/75b5b3b4fe93d9f85c66825364f54bec/transformed/room-runtime-2.2.4/AndroidManifest.xml:27:13-37
+53
+54        <uses-library
+54-->[androidx.window:window:1.0.0-alpha09] /Users/sanmaynemo/.gradle/caches/transforms-3/263b992ec32f6a210c132ee4c95d3f66/transformed/jetified-window-1.0.0-alpha09/AndroidManifest.xml:25:9-27:40
+55            android:name="androidx.window.extensions"
+55-->[androidx.window:window:1.0.0-alpha09] /Users/sanmaynemo/.gradle/caches/transforms-3/263b992ec32f6a210c132ee4c95d3f66/transformed/jetified-window-1.0.0-alpha09/AndroidManifest.xml:26:13-54
+56            android:required="false" />
+56-->[androidx.window:window:1.0.0-alpha09] /Users/sanmaynemo/.gradle/caches/transforms-3/263b992ec32f6a210c132ee4c95d3f66/transformed/jetified-window-1.0.0-alpha09/AndroidManifest.xml:27:13-37
+57        <uses-library
+57-->[androidx.window:window:1.0.0-alpha09] /Users/sanmaynemo/.gradle/caches/transforms-3/263b992ec32f6a210c132ee4c95d3f66/transformed/jetified-window-1.0.0-alpha09/AndroidManifest.xml:28:9-30:40
+58            android:name="androidx.window.sidecar"
+58-->[androidx.window:window:1.0.0-alpha09] /Users/sanmaynemo/.gradle/caches/transforms-3/263b992ec32f6a210c132ee4c95d3f66/transformed/jetified-window-1.0.0-alpha09/AndroidManifest.xml:29:13-51
+59            android:required="false" /> <!-- Needs to be explicitly declared on P+ -->
+59-->[androidx.window:window:1.0.0-alpha09] /Users/sanmaynemo/.gradle/caches/transforms-3/263b992ec32f6a210c132ee4c95d3f66/transformed/jetified-window-1.0.0-alpha09/AndroidManifest.xml:30:13-37
+60        <uses-library
+60-->[com.google.android.gms:play-services-maps:17.0.0] /Users/sanmaynemo/.gradle/caches/transforms-3/4ff04b552376fa176bbc7cc9473315a2/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+61            android:name="org.apache.http.legacy"
+61-->[com.google.android.gms:play-services-maps:17.0.0] /Users/sanmaynemo/.gradle/caches/transforms-3/4ff04b552376fa176bbc7cc9473315a2/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+62            android:required="false" />
+62-->[com.google.android.gms:play-services-maps:17.0.0] /Users/sanmaynemo/.gradle/caches/transforms-3/4ff04b552376fa176bbc7cc9473315a2/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+63
+64        <activity
+64-->[com.google.android.gms:play-services-base:17.5.0] /Users/sanmaynemo/.gradle/caches/transforms-3/95c896bfb86fb8511a346286c847ef0f/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:23:9-26:75
+65            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+65-->[com.google.android.gms:play-services-base:17.5.0] /Users/sanmaynemo/.gradle/caches/transforms-3/95c896bfb86fb8511a346286c847ef0f/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:24:13-79
+66            android:exported="false"
+66-->[com.google.android.gms:play-services-base:17.5.0] /Users/sanmaynemo/.gradle/caches/transforms-3/95c896bfb86fb8511a346286c847ef0f/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:25:13-37
+67            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+67-->[com.google.android.gms:play-services-base:17.5.0] /Users/sanmaynemo/.gradle/caches/transforms-3/95c896bfb86fb8511a346286c847ef0f/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:26:13-72
+68
+69        <meta-data
+69-->[com.google.android.gms:play-services-basement:17.5.0] /Users/sanmaynemo/.gradle/caches/transforms-3/3d5af56488970f2114f0cfe8886e8ed7/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:23:9-25:69
+70            android:name="com.google.android.gms.version"
+70-->[com.google.android.gms:play-services-basement:17.5.0] /Users/sanmaynemo/.gradle/caches/transforms-3/3d5af56488970f2114f0cfe8886e8ed7/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:24:13-58
+71            android:value="@integer/google_play_services_version" />
+71-->[com.google.android.gms:play-services-basement:17.5.0] /Users/sanmaynemo/.gradle/caches/transforms-3/3d5af56488970f2114f0cfe8886e8ed7/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:25:13-66
+72
+73        <provider
+73-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/sanmaynemo/.gradle/caches/transforms-3/af01e81fd5f15eecd40091685d977d11/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+74            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+74-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/sanmaynemo/.gradle/caches/transforms-3/af01e81fd5f15eecd40091685d977d11/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
+75            android:authorities="com.elbehiry.delish.lifecycle-process"
+75-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/sanmaynemo/.gradle/caches/transforms-3/af01e81fd5f15eecd40091685d977d11/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+76            android:exported="false"
+76-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/sanmaynemo/.gradle/caches/transforms-3/af01e81fd5f15eecd40091685d977d11/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+77            android:multiprocess="true" />
+77-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/sanmaynemo/.gradle/caches/transforms-3/af01e81fd5f15eecd40091685d977d11/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+78        <provider
+78-->[androidx.profileinstaller:profileinstaller:1.0.0] /Users/sanmaynemo/.gradle/caches/transforms-3/aedaeb2a970ca331d269e01084a6358d/transformed/jetified-profileinstaller-1.0.0/AndroidManifest.xml:26:9-34:20
+79            android:name="androidx.startup.InitializationProvider"
+79-->[androidx.profileinstaller:profileinstaller:1.0.0] /Users/sanmaynemo/.gradle/caches/transforms-3/aedaeb2a970ca331d269e01084a6358d/transformed/jetified-profileinstaller-1.0.0/AndroidManifest.xml:27:13-67
+80            android:authorities="com.elbehiry.delish.androidx-startup"
+80-->[androidx.profileinstaller:profileinstaller:1.0.0] /Users/sanmaynemo/.gradle/caches/transforms-3/aedaeb2a970ca331d269e01084a6358d/transformed/jetified-profileinstaller-1.0.0/AndroidManifest.xml:28:13-68
+81            android:exported="false" >
+81-->[androidx.profileinstaller:profileinstaller:1.0.0] /Users/sanmaynemo/.gradle/caches/transforms-3/aedaeb2a970ca331d269e01084a6358d/transformed/jetified-profileinstaller-1.0.0/AndroidManifest.xml:29:13-37
+82            <meta-data
+82-->[androidx.profileinstaller:profileinstaller:1.0.0] /Users/sanmaynemo/.gradle/caches/transforms-3/aedaeb2a970ca331d269e01084a6358d/transformed/jetified-profileinstaller-1.0.0/AndroidManifest.xml:31:13-33:52
+83                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+83-->[androidx.profileinstaller:profileinstaller:1.0.0] /Users/sanmaynemo/.gradle/caches/transforms-3/aedaeb2a970ca331d269e01084a6358d/transformed/jetified-profileinstaller-1.0.0/AndroidManifest.xml:32:17-85
+84                android:value="androidx.startup" />
+84-->[androidx.profileinstaller:profileinstaller:1.0.0] /Users/sanmaynemo/.gradle/caches/transforms-3/aedaeb2a970ca331d269e01084a6358d/transformed/jetified-profileinstaller-1.0.0/AndroidManifest.xml:33:17-49
+85        </provider>
+86
+87        <receiver
+87-->[androidx.profileinstaller:profileinstaller:1.0.0] /Users/sanmaynemo/.gradle/caches/transforms-3/aedaeb2a970ca331d269e01084a6358d/transformed/jetified-profileinstaller-1.0.0/AndroidManifest.xml:36:9-45:20
+88            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+88-->[androidx.profileinstaller:profileinstaller:1.0.0] /Users/sanmaynemo/.gradle/caches/transforms-3/aedaeb2a970ca331d269e01084a6358d/transformed/jetified-profileinstaller-1.0.0/AndroidManifest.xml:37:13-76
+89            android:directBootAware="false"
+89-->[androidx.profileinstaller:profileinstaller:1.0.0] /Users/sanmaynemo/.gradle/caches/transforms-3/aedaeb2a970ca331d269e01084a6358d/transformed/jetified-profileinstaller-1.0.0/AndroidManifest.xml:38:13-44
+90            android:enabled="true"
+90-->[androidx.profileinstaller:profileinstaller:1.0.0] /Users/sanmaynemo/.gradle/caches/transforms-3/aedaeb2a970ca331d269e01084a6358d/transformed/jetified-profileinstaller-1.0.0/AndroidManifest.xml:39:13-35
+91            android:exported="true"
+91-->[androidx.profileinstaller:profileinstaller:1.0.0] /Users/sanmaynemo/.gradle/caches/transforms-3/aedaeb2a970ca331d269e01084a6358d/transformed/jetified-profileinstaller-1.0.0/AndroidManifest.xml:40:13-36
+92            android:permission="android.permission.DUMP" >
+92-->[androidx.profileinstaller:profileinstaller:1.0.0] /Users/sanmaynemo/.gradle/caches/transforms-3/aedaeb2a970ca331d269e01084a6358d/transformed/jetified-profileinstaller-1.0.0/AndroidManifest.xml:41:13-57
+93            <intent-filter>
+93-->[androidx.profileinstaller:profileinstaller:1.0.0] /Users/sanmaynemo/.gradle/caches/transforms-3/aedaeb2a970ca331d269e01084a6358d/transformed/jetified-profileinstaller-1.0.0/AndroidManifest.xml:42:13-44:29
+94                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+94-->[androidx.profileinstaller:profileinstaller:1.0.0] /Users/sanmaynemo/.gradle/caches/transforms-3/aedaeb2a970ca331d269e01084a6358d/transformed/jetified-profileinstaller-1.0.0/AndroidManifest.xml:43:17-91
+94-->[androidx.profileinstaller:profileinstaller:1.0.0] /Users/sanmaynemo/.gradle/caches/transforms-3/aedaeb2a970ca331d269e01084a6358d/transformed/jetified-profileinstaller-1.0.0/AndroidManifest.xml:43:25-88
+95            </intent-filter>
+96        </receiver>
+97    </application>
+98
+99</manifest>

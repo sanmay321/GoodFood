@@ -1,0 +1,1 @@
+[{"navFile":"src/main/res/navigation/nav_graph.xml","javaFiles":["com.elbehiry.delish.ui.recipes.HomeFragmentDirections","com.elbehiry.delish.ui.recipedetails.RecipeDetailsFragmentArgs","com.elbehiry.delish.ui.search.SearchFragmentDirections","com.elbehiry.delish.ui.search.SearchFragmentArgs"]}]
